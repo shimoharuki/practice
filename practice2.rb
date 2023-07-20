@@ -1,8 +1,8 @@
 # 二つの整数を受け取る
  
-A,B = gets.chomp.split("").map(&:to_i)
+a,b = gets.chomp.split("").map(&:to_i)
 
-if (B == A += 1) && (A % 3 == 0)
+if (b == a += 1) && (a % 3 == 0)
     puts "Yes"
 else
     puts "No"
